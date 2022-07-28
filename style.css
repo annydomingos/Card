@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h3{
+  margin-bottom: 0;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  width: 500px;
+}
+
+.moldura{
+  background: url(img\ mat\ PeB\ card.jpeg) center center no-repeat;
+  display: flex;
+  height: 400px;
+  width: 350px;
+  justify-content: end;
+  align-items:flex-start;
+  background-color: gray;
+  background-size: 400px;
+  border-radius: 10px;
+}
+
+.moldura:hover{
+  background: url("img\ mat\ PeB\ card.jpeg") right center no-repeat;
+  overflow: hidden;
+  background-size: 600px;
+  border-radius: 10px;
+  transition: 0.8s;
+  box-shadow: 0 70px 63px -60px #000;
+}
+.moldura:hover .icones{
+  opacity: 1;
+}
+
+.moldura:hover h1{
+  opacity: 1;
+}
+
+
+h1{
+  z-index: 1;
+  position: absolute;
+  display: flex;
+  color: white;
+  font-family: sans-serif;
+  padding-right: 20px;
+  opacity: 0;
+  transition: ease-in-out 0.8s;
+}
+
+.icones{
+  display: flex;
+  cursor: pointer;
+  z-index: 1;
+  position: absolute;
+  font-size: 30px;
+  flex-direction: column;
+  align-self: center;
+  align-items: flex-start;
+  padding-right: 20px;
+  opacity: 0;
+  transition: ease-in-out 0.8s;
+
+}
+a{
+  text-decoration: none;
+}
+
+i{
+  color: white;
+}
+
+#instagram{
+  font-size: 33px;
+}
+#behance{
+  display: flex;
+  margin: 20px 0px;
+}
