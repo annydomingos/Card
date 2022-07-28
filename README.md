@@ -1,1 +1,1 @@
-# card_mateus Card made with HTML and CSS for Mateus Souza with his portifolio and social media links using HTML and CSS.
+Card made with HTML and CSS for Mateus Souza with his portifolio and social media links using HTML and CSS.
